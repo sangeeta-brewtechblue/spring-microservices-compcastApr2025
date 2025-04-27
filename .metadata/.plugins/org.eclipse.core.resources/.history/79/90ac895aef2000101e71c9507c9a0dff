@@ -1,0 +1,26 @@
+package com.sj;
+
+public class DIFramework {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	    
+	
+	
+	
+	
+	}
+	
+	Calculator injectCalculator(String name) {
+		
+		if(name.equals("A"))
+			return new CalculatorA();
+		else
+			return new CalculatorB();
+		
+	}
+	
+	
+
+}

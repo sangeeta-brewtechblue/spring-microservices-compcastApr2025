@@ -1,0 +1,11 @@
+package com.sj;
+
+public class CalculatorA implements Calculator {
+
+	@Override
+	public void findSqrRoot(int x) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

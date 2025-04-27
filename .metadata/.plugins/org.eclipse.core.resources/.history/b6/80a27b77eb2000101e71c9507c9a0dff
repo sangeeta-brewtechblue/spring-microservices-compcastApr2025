@@ -1,0 +1,5 @@
+package com.sj;
+
+public interface Calculator {
+
+}
