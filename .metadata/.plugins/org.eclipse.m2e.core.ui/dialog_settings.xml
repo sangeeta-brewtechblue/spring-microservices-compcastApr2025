@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="F:\springLatest2025\downloaded projects\car-demo"/>
+			<item value="F:\springLatest2025\downloaded projects\mvc\springMVCwithJSP-master\springMVCwithJSP-master"/>
+			<item value="F:\springLatest2025\downloaded projects\webapp.demo"/>
+			<item value="F:\springLatest2025\downloaded projects\springbootdemo"/>
 			<item value="F:\springLatest2025\downloaded projects\corespring-demo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -12,5 +16,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
