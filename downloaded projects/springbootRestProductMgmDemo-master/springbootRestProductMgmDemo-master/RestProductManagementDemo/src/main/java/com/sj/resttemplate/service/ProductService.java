@@ -12,6 +12,8 @@ public interface ProductService {
      List<Product> getAllProducts();
    //just added for test example ,following method
      String getProductName();
+	Product updateProduct(int id, Product toBeUpdated);
+	void deleteProduct(int id);
 
 
 }

@@ -71,5 +71,28 @@ public class ProductServiceImpl implements ProductService {
 		return "laptop";
 	}
 
+	@Override
+	public Product updateProduct(int id, Product toBeUpdated) {
+		
+		// TODO Auto-generated method stub
+		
+		Product toUpdate =   getProduct(id);
+		toUpdate.setPName(toBeUpdated.getPName());
+		toUpdate.setPrice(toBeUpdated.getPrice());
+		return productRepository.save(toUpdate);
+		
+		
+		
+	}
+
+	@Override
+	public void deleteProduct(int id) {
+		// TODO Auto-generated method stub
+		
+		Product toDelete = getProduct(id);
+		productRepository.delete(toDelete);
+		
+	}
+
 
 }
